@@ -9,7 +9,7 @@ a:link{
 }
 /* the modal css below */
 
-/* Style the img used to trigger the modal*/
+/* Style the img used to trigger the modal
 #myImg {
     border-radius: 5px;
     cursor: pointer;
@@ -17,7 +17,7 @@ a:link{
 }
 #myImg:hover {opacity: 0.7;}
 
-/* Modal background*/
+/* Modal background
 .modal {
     display: none;
     position: fixed;
@@ -37,14 +37,14 @@ a:link{
     width: 80%;
     max-width: 700px;
 }
-/* caption of modal image (image text), same width as images */
+/* caption of modal image (image text), same width as images 
 #caption {
     margin: auto;
     display: block;
     width: 80%;
     max-width: 700px;
 }
-/* Add animation -zoom in the modal */
+/* Add animation -zoom in the modal 
 .modal-content, #caption {
     -webkit-animation-name: zoom;
     -webkit-animation-duration: 0.6s;
@@ -74,7 +74,7 @@ a:link{
     text-decoration: none;
     cursor: pointer;
 }
-/* 1005 image width on smaller screens */
+/* 1005 image width on smaller screens 
 @media only screen and (max-width: 700px) {
     .modal-content {
         width: 100%;

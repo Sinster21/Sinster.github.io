@@ -16,7 +16,7 @@ document.getElementById("myButton").addEventListener("click", function() {
     alert( message.value );
 });
 
-// Get th modal
+/* Get th modal
 var modal = document.getElementById("myModal");
 
 // Get the image and insert it insie modal while using the alt text as caption
@@ -36,4 +36,4 @@ var span = document.getElementsByClassName("close")[0];
 // When user clicks on <span> (x) it close the modal
 span.click = function() {
     modal.style.display = "none";
-};
+}; */

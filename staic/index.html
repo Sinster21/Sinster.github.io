@@ -4,23 +4,25 @@
         <meta charset="utf-8">
         <title>Alyssia Matthews</title>
         <link rel="stylesheet" href="base.css">
-        <!-- Triggers the model -->
-        <img id="myImg" src="images/grass.jpg" alt="Grass in the morning" width="300" height="200">
+        <link href="path/to/lightbox.css" rel="stylesheet">
+        <a href="images/grass.jpg" data-lightbox="grass" data-title="Grass in the morning, I guess"></a>
+        <!-- Triggers the model 
+        <img id="myImg" src="images/grass.jpg" alt="Grass in the morning" width="300" height="200"> -->
     </head>
     <body>
         
             <selection> 
                 <header>
                     
-                    <!-- creates a model -->
+                   <!-- creates a model 
                   <div id="myImg" class="modal">
                       
-                     <!-- creates the close button -->
+                     <!-- creates the close button 
                       <span class="close" onclick="document.getElementById
                       ('myModal').style.display='none'">&times;</span>
                        
                        <img class="modal-content" id="img01">
-                       <div id="caption"></div>
+                       <div id="caption"></div> -->
                   </div>
                 
                     <br>
@@ -41,5 +43,7 @@
             </selection>
             
             <script type="text/javascript" src="app.js"></script>
+            <script src="path/to/lightbox.js"></script>
+            <script src="dist/js/lightbox-plus-jquery.js"></script>
     </body>
 </html>

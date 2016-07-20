@@ -1,0 +1,55 @@
+body, h1, h2, h3,h4, h5 ,h6 {
+    font-family: "Lato", sans-serif;
+}
+body, html {
+    height: 100%;
+    color: #777;
+    line-height: 1.8;
+}
+
+/* creates a parallax effect */
+.bgimg-1, .bgimg-2, .bgimg-3 {
+    opacity: 0.7;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+/* First image, logo full height */
+.bgimg-1 {
+    background-image: url(images-2/fog-water.jpg);
+    min-height: 100%;
+}
+/* second image, profolio */
+.bgimg-2 {
+    background-image: url("");
+    min-height: 400px;
+}
+
+/* turns off parallax scrolling for tablets and mobiles */
+@media only screen (max-width: 1024px) {
+    .bgimg-1, .bgimg-2, .bgimg-3 {
+        background-attachment: scroll;
+    }
+}
+div span {
+    color: #D3D3D3 ;
+    font-size: xx-large;
+}
+footer {
+    color: #A9A9A9;
+    padding: 48;
+}
+.Parallax {
+    display: block;
+}
+.content {
+    padding-right: 16px;
+    padding-left: 16px;
+}
+.w3-display-middle {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}

@@ -8,7 +8,7 @@ var person = prompt("Please enter you name.");
 var day = prompt("How was your day today.");
     if (day != null) {
         document.getElementById("day").innerHTML = 
-        " I'm glad that your " + day + " was like a story " + person;
+        " I'm glad that you were able to tell me about your " + day + ", " + person;
 }
 //makes the generated box and text alert
 var message = document.getElementById("message");

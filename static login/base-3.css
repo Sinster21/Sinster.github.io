@@ -1,10 +1,5 @@
-@import url(https://fonts.googleapis.com/css?family=Roboto:400,300,500,700);
-@import url(https://fonts.googleapis.com/css?family=Montserrat:400,700);
-
-$alt: #E26A6A;
-
 body {
-    background: url(images/castle-painting.jpg) no-repeat center center fixed;
+    background: url(https://images.unsplash.com/photo-1443890923422-7819ed4101c0?crop=entropy&fit=crop&fm=jpg&h=650&ixjsv=2.1.0&ixlib=rb-0.3.5&q=80&w=1375) no-repeat center center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -50,12 +45,10 @@ a:active {
     left: 65%;
     transform: translate(-50%, -50%);
     box-shadow: 3px -2px 6px 0px rgba(0, 0, 0, 0.4);
-
-    & .slider-content.signup {
-        display: none;
-    }
 }
-
+.container.container--sliding .slider-content.signup {
+        display: none;
+}
 .info-box {
     width: 40%;
     margin: 5% auto;
@@ -77,7 +70,7 @@ a:active {
 .heading.alt {
     margin-bottom: 10%;
     text-transform: uppercase;
-    color: $alt;
+    color: #E26A6A;
 }
 
 .info-text {
@@ -107,7 +100,7 @@ a:active {
 
 .button.alt {
     margin-bottom: 15px;
-    background-color: $alt;
+    background-color: #E26A6A;
     border: 0;
 }
 
@@ -127,8 +120,8 @@ form input {
     border: 0;
     border-bottom: 2px solid #ddd;
     font-family: 'Montserrat';
+}
     
-    &:focus {
+    form input:focus {
         outline: 0;
     }
-}

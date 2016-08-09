@@ -5,24 +5,20 @@
         <title>Alyssia Matthews</title>
         <link rel="stylesheet" type="text/css" href="WEB-INFO/w3.css">
         <link rel="stylesheet" href="base.css">
-        
-        <!-- Triggers the model -->
-        <img id="myImg" src="images/grass.jpg" alt="Grass in the morning" width="300" height="200"> 
     </head>
     <body>
         
             <selection> 
                 <header>
+                
+                    <img src="images/grass.jpg" alt="Grass in the morning" width="300" height="200"> 
                     
-                   <!-- creates a model -->
-                  <div id="myImg" class="modal">
-                      
-                     <!-- creates the close button -->
-                      <span class="close" onclick="document.getElementById
-                      ('myModal').style.display='none'">&times;</span>
-                       
-                       <img class="modal-content" id="img01">
-                       <div id="caption"></div> 
+                    
+                    <!-- creates the modal -->
+                  <div id="myModal" class="w-3-modal" onclick="this.style.display='none'">
+                      <span class="close">X</span>
+                      <img class="w-3-modal-content" id="img01">
+                    <div id="caption"></div>
                   </div>
                 
                     <br>

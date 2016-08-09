@@ -16,10 +16,17 @@ document.getElementById("myButton").addEventListener("click", function() {
     alert( message.value );
 });
 
+// Modal Image Gallery
+function onClick(element) {
+  document.getElementById("img01").src = element.src;
+  document.getElementById("modal01").style.display = "block";
+}
+    
+
 /* Get th modal */
 var modal = document.getElementById("myModal");
 
-// Get the image and insert it insie modal while using the alt text as caption
+// Get the image and insert it insie modal while using the alt text as caption */
 var img = document.getElementById("myImg");
 var modalImg = document.getElementById("img01");
 var captionText = document.getElementById("caption");

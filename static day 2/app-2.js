@@ -7,8 +7,7 @@ window.onscrool = function() {myFunction()};
                     navbar.className =  "w3-navbar" + " w3-card-2" + 
                         " w3-animate-top" + " w3-white";
         } else {
-            navbar.className = 
-            navbar.className.replace(" w3-card-2 w3-animate-top w3-white", "");
+            navbar.className = navbar.className.replace(" w3-card-2 w3-animate-top w3-white", "");
     }
 }
 

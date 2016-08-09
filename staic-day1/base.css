@@ -17,7 +17,7 @@ a:link{
 }
 #myImg:hover {opacity: 0.7;}
 
-/* Modal background */
+/* Modal background */ 
 .modal {
     display: none;
     position: fixed;
@@ -54,12 +54,12 @@ a:link{
     animation-duration: 0.6s;
 }
 @-webkit-keyframes zoom {
-    from {-webkit-transform: scale(0)}
-    to {-webkit-transform: scale(1)}
+    from {-webkit-transform:scale(0)}
+    to {-webkit-transform:scale(1)}
 }
 @keyframes zoom {
-    from {transform: scale(0)}
-    to {transform: scale(1)}
+    from {transform:scale(0)}
+    to {transform:scale(1)}
 }
 .close {
     position: absolute;
@@ -76,12 +76,12 @@ a:link{
     text-decoration: none;
     cursor: pointer;
 }
-/* 1005 image width on smaller screens */
+/* 1005 image width on smaller screens */ 
 @media only screen and (max-width: 700px) {
     .modal-content {
         width: 100%;
     }
-}
+} 
 .button {
     background-color: #4CAF50; /* Green */
     border: none;
